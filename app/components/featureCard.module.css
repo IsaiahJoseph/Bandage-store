@@ -1,0 +1,136 @@
+.feature_container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.text_box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.text_1 {
+font-size: 13px;
+font-weight: 500;
+color: rgb(122, 121, 121);
+margin-left: 87px;
+
+}
+.text_2 {
+    margin-top: 10px;
+    margin-left: 13.5px;
+   
+}
+.text_3 {
+    font-size: 9px;
+    font-weight: 400;
+    margin-left: 25px;
+    letter-spacing: 1px ;
+    color:  rgb(46, 136, 253);
+}
+
+
+
+
+.feature_items {
+    width: 70%;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-left: 17%;
+    margin-top: 50px;
+    justify-content: center;
+}
+.feature_flex {
+    display: flex;
+    justify-content: center;
+    padding-left: -6px;
+ 
+}
+.feature_title_box {
+    margin-top: 6px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: start;
+    
+} 
+.feature_title {
+    text-align: left;
+}
+.feature_category_box{
+    margin-top: 13px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+.feature_category{
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.5px ;
+}
+.feature_text_box {
+    margin-top: 6px;
+    display: flex;
+    justify-content: start;
+    margin-left: 12px;
+}
+.feature_text {
+    width: 200px;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.5px ;
+    text-align: left;
+    
+}
+.feature_imgs {
+    display: flex;
+    justify-content: center;
+}
+.feature_labels_box {
+    display: flex;
+    justify-content: center;
+}
+
+.feature_labels {
+    background-color: white;
+    border: 0.3px solid rgb(247, 247, 247);
+    text-align: center;
+    width: 257px;
+}
+
+.feature_comments {
+    margin-top: 6px;
+    margin-left: 12px;
+    display: flex;
+    gap: 65px;
+    justify-content: start;
+}
+.feature_comment {
+    font-size: 11px;
+    color: rgb(122, 121, 121);
+    
+    
+}
+
+.feature_time {
+    font-size: 11px;
+}
+.learn_more {
+    display: flex;
+    justify-content: start;
+    margin-top: 13px;
+}
+.h5 {
+    margin-left: 12px;
+}

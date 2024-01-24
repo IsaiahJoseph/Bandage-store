@@ -1,0 +1,43 @@
+
+.prod_items {
+    width: 60%;
+    display: flex;
+    gap: 1px;
+    flex-wrap: wrap;
+    margin-left: 21%;
+    margin-top: 50px;
+    justify-content: center;
+}
+.prod_flex {
+ flex: 1 0 15%;
+}
+.prod_prices {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+.prod_title_box {
+    display: flex;
+    justify-content: center;
+    
+} 
+.prod_category_box{
+    display: flex;
+    justify-content: center;
+}
+.prod_category{
+    font-size: 5px;
+    font-weight: 400;
+    letter-spacing: 1px ;
+}
+.prod_discountPercentage {
+    font-size: 11px;
+    color: rgb(122, 121, 121);
+    
+    
+}
+
+.prod_price {
+    font-size: 11px;
+}
+

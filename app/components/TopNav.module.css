@@ -1,0 +1,36 @@
+.nav_box {
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.5px solid white;
+   
+}
+.nav {
+    padding: 1rem;
+    width: 98%;
+    height: 10%;
+    /* background-color: aqua; */
+    background-color: rgb(250, 251, 252);
+    display: flex;
+    justify-content: space-between;
+} 
+.nav_list {
+    width: 20%;
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.nav_links {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+
+}
+.nav_li {
+    font-size: 12px;
+    text-decoration: none;
+    color: blue;
+}
