@@ -1,92 +1,86 @@
 .body {
-    margin: 10px;
+  margin: 10px;
 }
 .text_box {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .box {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .text_1 {
-font-size: 13px;
-font-weight: 500;
-color: rgb(122, 121, 121);
-margin-left: 87px;
-
+  font-size: 13px;
+  font-weight: 500;
+  color: rgb(122, 121, 121);
+  margin-left: 87px;
 }
 .text_2 {
-    
-    margin-left: 50px;
+  margin-left: 50px;
 }
 .text_3 {
-    font-size: 9px;
-    font-weight: 400;
-    margin-left: 25px;
-    letter-spacing: 1px ;
+  font-size: 9px;
+  font-weight: 400;
+  margin-left: 25px;
+  letter-spacing: 1px;
 }
 
 .button_load_more {
-    margin-left: 41%;
-    margin-top: 15px;
-    height: 40px;
-    width: 250px;
-    border: 1px solid rgb(46, 136, 253);
+  margin-left: 41%;
+  margin-top: 15px;
+  height: 40px;
+  width: 250px;
+  border: 1px solid rgb(46, 136, 253);
 }
 
 .box2 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .service_box {
-    display: flex;
+  display: flex;
 }
-
 
 .service_items {
-    width: 70%;
-    display: flex;
-    gap: 5px;
-    flex-wrap: wrap;
-    margin-left: 17%;
-    margin-top: 50px;
-    justify-content: center;
+  width: 70%;
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  margin-left: 17%;
+  margin-top: 50px;
+  justify-content: center;
 }
 .service_flex {
-    display: flex;
-    justify-content: center;
-    padding-left: -6px;
- 
+  display: flex;
+  justify-content: center;
+  padding-left: -6px;
 }
 .service_title_box {
-    display: flex;
-    justify-content: center;
-    
-} 
-.service_category_box{
-    padding: 3px;
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    gap: 5px;
+  display: flex;
+  justify-content: center;
 }
-.service_category{
-    font-size: 10px;
-    font-weight: 400;
-    letter-spacing: 0.5px ;
+.service_category_box {
+  padding: 3px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.service_category {
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
 }
 .service_imgs {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .service_labels {
-    text-align: center;
-    
+  text-align: center;
 }

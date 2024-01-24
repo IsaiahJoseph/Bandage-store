@@ -1,6 +1,6 @@
-import React from 'react'
-import styles from './TopNav.module.css'
-import Link from 'next/link'
+import React from "react";
+import styles from "./TopNav.module.css";
+import Link from "next/link";
 
 const TopNav = () => {
   return (
@@ -17,13 +17,19 @@ const TopNav = () => {
         </ul>
 
         <ul className={styles.nav_links}>
-        <li className={styles.nav_li}><Link href="">login / Register</Link></li>
-        <li className={styles.nav_li}><Link href="">cart</Link></li>
-        <li className={styles.nav_li}><Link href="">Liked</Link></li>
+          <li className={styles.nav_li}>
+            <Link href="">login / Register</Link>
+          </li>
+          <li className={styles.nav_li}>
+            <Link href="">cart</Link>
+          </li>
+          <li className={styles.nav_li}>
+            <Link href="">Liked</Link>
+          </li>
         </ul>
       </nav>
-      </div>
-  )
-}
+    </div>
+  );
+};
 
-export default TopNav
+export default TopNav;

@@ -1,80 +1,76 @@
 .card_container {
-display: block;
+  display: block;
 }
 .photo_flex {
-margin-top: 30px;
-display: flex;
-justify-content: center;
-margin-left: 10px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
 }
 .photo_flex_1 {
-display: flex;
-gap: 3px;
-
+  display: flex;
+  gap: 3px;
 }
 .photo_flex_2 {
-display: flex;
-flex-direction: column;
-border: none;
+  display: flex;
+  flex-direction: column;
+  border: none;
 }
 .photo_flex_3 {
-display: flex;
+  display: flex;
 }
-
 
 .section_about_us {
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-} 
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
 .text_1 {
-display: flex;
-justify-content: center;
-margin-bottom: 35px;
-margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+  margin-top: 35px;
 }
 .about_us_images {
-    margin-top: 22px;
-    width: 35%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 6px;
-    row-gap: 5px;
+  margin-top: 22px;
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  row-gap: 5px;
 }
 .about_us_imgs {
-    flex: 0 0 25%;
+  flex: 0 0 25%;
 }
 
 .about_us_profile_img_box {
-    margin-bottom: 35px;
-    display: flex;
-    justify-content: center;
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: center;
 }
 
 .about_us_profile_img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
-
 
 .feature_text_box {
-    margin-bottom: 35px;
-    margin-top: 6px;
-    display: flex;
-    justify-content: center;
-    margin-left: 12px;
+  margin-bottom: 35px;
+  margin-top: 6px;
+  display: flex;
+  justify-content: center;
+  margin-left: 12px;
 }
 .feature_text {
-    font-size: 10px;
-    font-weight: 400;
-    letter-spacing: 0.5px ;
-    text-align: center;
-    
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-align: center;
 }
 
 .h3 {
-    display: flex;
-    justify-content: center;
-    margin-left: 12px;
-    margin-top: -20px;
+  display: flex;
+  justify-content: center;
+  margin-left: 12px;
+  margin-top: -20px;
 }
