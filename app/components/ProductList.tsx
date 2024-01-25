@@ -31,7 +31,7 @@ const ProductList = async () => {
       <Link href={"/products/details"}>
         <ul className={styles.prod_items}>
           {Products.map((p) => (
-            <div key={p.id} className={styles.prod_flex}>
+           <div key={p.id} className={styles.prod_flex}>
               <li>
                 <div className={styles.prod_imgs}>
                   <img src={p.images[0]} alt="photo" width={155} height={180} />
@@ -61,3 +61,4 @@ const ProductList = async () => {
 };
 
 export default ProductList;
+ 

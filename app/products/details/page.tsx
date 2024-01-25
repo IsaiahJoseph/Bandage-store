@@ -6,4 +6,4 @@ const productDetails = () => {
   )
 }
 
-export default productDetails
+export default productDetails 

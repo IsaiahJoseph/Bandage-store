@@ -27,7 +27,7 @@ const FeatureCard = () => {
 
                 <div className={styles.feature_title_box}>
                   <h4 className={styles.feature_title}>
-                    Loudest a la Madison #1 <br /> (L'integral)
+                    Loudest a la Madison #2 <br /> (L'integral)
                   </h4>
                 </div>
                 <div className={styles.feature_text_box}>
