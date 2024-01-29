@@ -92,7 +92,36 @@ const ProductCard = () => {
             <img src="imgs/photo10.jpg" alt="photo" width={115} height={90} />
           </div>
         </div>
+
+        
+
       </div>
+      
+      <div>
+        <div> 
+          <div className={styles.box}>
+          <Image className={styles.text_img} src={"/imgs/photo8.jpg"} alt={"photo"} width={800} height={400}></Image>
+           <div className={styles.text_container}>
+            <div className={styles.text_box}>
+            <p className={styles.text_1}>Designing Better Experience</p>
+            <h2 className={styles.text_2}>PROBLEMS TRYING TO RESOLVE THE CONFLICT BETWEEN</h2>
+            <p className={styles.text_3}>
+              problems trying to resolve the conflict between the two major realms of physics
+            </p>
+            <h3 className={styles.text_4}>$24.18</h3>
+          </div>
+          
+          <button className={styles.button_load_more}>
+            ADD YOUR CALL TO ACTION
+          </button>
+        
+           </div>
+          
+        </div>
+        
+        </div>
+      </div>
+      
     </div>
   );
 };

@@ -75,3 +75,56 @@
   margin-top: -20px;
 }
  
+.box {
+  position: relative;
+  top: 40px;
+  margin-left: 18.25%;
+  
+}
+
+.text_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text_img {
+  opacity: 0.5;
+}
+.text_box {
+  position: absolute;
+  top: 15%;
+  right: 37%;
+}
+.text_1 {
+   font-size: 13px;
+  font-weight: 500;
+  color: rgb(46, 136, 253);
+  margin-right: 20%;
+} 
+.text_2 {
+  width: 400px;
+  text-align: center;
+}  
+.text_3 {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgb(122, 121, 121);
+  margin-right: 5%;
+  margin-right: 16%;
+  text-align: center;
+} 
+.text_4 {
+  color:green;
+  margin-top: 5%;
+  margin-right: 18%;
+  text-align: center;
+} 
+.button_load_more {
+  margin-left: 25%;
+  margin-top: -10%;
+  height: 40px;
+  width: 250px;
+  background-color: blue;
+  border: none;
+}
